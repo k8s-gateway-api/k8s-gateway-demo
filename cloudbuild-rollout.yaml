@@ -8,7 +8,7 @@ steps:
   env: [_CLUSTER_NAME=$_CLUSTER_NAME, _CLUSTER_REGION=$_CLUSTER_REGION]
 
 substitutions:
-  _CLUSTER_NAME: k8s-gateway # default cluster name
+  _CLUSTER_NAME: gateway-cluster2 # default cluster name
   _CLUSTER_REGION: us-central1 # default cluster region
 
 availableSecrets:

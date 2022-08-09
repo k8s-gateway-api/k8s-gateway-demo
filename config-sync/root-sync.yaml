@@ -9,7 +9,7 @@ metadata:
 spec:
   sourceFormat: hierarchy
   git:
-    repo: git@github.com:abhinavrau/sp1-config-sync-root.git
+    repo: git@github.com:k8s-gateway-api/config-sync-root.git
     branch: main
     dir: "/"
     auth: ssh

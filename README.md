@@ -65,9 +65,9 @@ kubectl get ns
 Create SSH key and use it for the config sync root repo. 
 ```
 ssh-keygen -t rsa -b 4096 \
--C "GIT_REPOSITORY_USERNAME" \
+-C "msathe-tech" \
 -N '' \
--f /path/to/KEYPAIR_FILENAME
+-f $HOME/cloud-onair/gateway-demo
 ```
 Add the private keys to a new Secret in the cluster:
 ```
